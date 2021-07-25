@@ -5,7 +5,7 @@ export class Conta{
         this._agencia = agencia;
         
         if(this.constructor == Conta){
-            console.log("Você não deveria instanciar um objeto do tipo conta")
+            console.error("Você não deveria instanciar um objeto do tipo conta")
         }
     }
 
