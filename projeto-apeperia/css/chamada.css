@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     .chamada__texto{
         max-width: 600px;
     }
