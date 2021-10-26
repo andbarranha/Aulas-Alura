@@ -61,3 +61,24 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .institucional_conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        text-align: left;
+    }
+
+    .institucional_video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+    .institucional_contato-email {
+        display: block;
+    }
+}
