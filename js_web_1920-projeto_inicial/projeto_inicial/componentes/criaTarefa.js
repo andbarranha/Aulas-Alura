@@ -1,5 +1,5 @@
-import BotaoConclui from './componentes/concluiTarefa.js'
-import BotaoDeleta from './componentes/deletaTarefa.js'
+import BotaoConclui from './concluiTarefa.js'
+import BotaoDeleta from './deletaTarefa.js'
  
 
 export const handlenovoItem = (evento) => {
@@ -23,7 +23,7 @@ export const handlenovoItem = (evento) => {
 
     lista.appendChild(criaTarefa)
 
-    localStorage.setItem("tarefa", JSON.stringify(tarefas))
+    localStorage.setItem("tarefa", JSON.stringify(dados))
 
     input.value = " "
 }
