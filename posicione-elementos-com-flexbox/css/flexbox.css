@@ -122,6 +122,7 @@
   .cabecalhoPrincipal-nav-link-app{
     order: -1;
   }
+<<<<<<< Updated upstream
 
   .videoSobre .container{
     flex-direction: column; 
@@ -130,4 +131,6 @@
   .videoSobre-video{
     margin: 0 auto;
   }
+=======
+>>>>>>> Stashed changes
 }
