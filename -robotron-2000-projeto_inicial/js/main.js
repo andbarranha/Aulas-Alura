@@ -4,6 +4,12 @@ const braco = document.querySelector("#braco")
 
 const controle = document.querySelectorAll("controle-ajuste")
 
+controle.forEach( (elemento) => { 
+    elemento.addEventListener("click", (evento) =>{
+        console.log(evento)
+    })
+})
+
 somar.addEventListener("click", () => {manipulaDados ("somar")})
 
 subtrair.addEventListener("click", () => {manipulaDados("subtrair")})
